@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: olivedrab;
+}
+.container{
+    background-color: rgb(95, 90, 90);
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+    position:absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+header{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2rem;
+    height: 3rem;
+    font-size: 24px;
+    color: white;
+    background-color: darkblue;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+.username{
+    background: transparent;
+    border: 1px dotted;
+    border-color: aliceblue;
+    padding: 5px;
+    width: 80%;
+    color: white;
+    outline: none;
+    margin-top: 5%;
+}
+input[type="submit"]{
+    border: 0;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: chartreuse;
+    font-size: 20px;
+    margin-top: 20px;
+}
+fieldset{
+    border: 0;
+    text-align: center;
+    margin-top:10%;
+}
